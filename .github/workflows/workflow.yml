@@ -1,33 +1,3 @@
-	steps:
-	  - name: {insert step name here}
-
-	```
-
-</details>
-1. Next, you want to run the nosetests command to test your code and report on code coverage.
-
-	```
-	nosetests -v --with-spec --spec-color --with-coverage --cover-package=app
-	```
-	Since you are running a single command, you do not have to use the pipe `|` operator with `run`.
-
-	<details><summary>Click here for a hint.</summary>
-
-```yaml
-	  - name: Run unit tests with nose
-	    run: {insert command here}
-	```
-
-</details>
-
-Double-check that your work matches the solution below.
-
-### Solution
-
-<details><summary>Click here for the answer.</summary>
-
-Replace the workflow.yml file with the code snippet below. You can also copy relevant parts of the code. Be sure to indent properly:
-
 ```yaml
 name: CI workflow
 
